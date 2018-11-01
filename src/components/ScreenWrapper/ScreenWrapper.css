@@ -1,0 +1,26 @@
+.ScreenWrapper {
+    min-height: 300px;
+}
+
+.sideScreenHolder {
+    height: 300px;
+    padding: 0;
+}
+
+.DevScreen {
+    background: #b3b3b3;
+}
+
+.AdminScreen {
+    background: #727272;
+}
+
+@media (max-width: 575px) {
+    .ScreenWrapper {
+        min-height: 225px;
+    }
+    
+    .sideScreenHolder {
+        height: 225px;
+    }
+}

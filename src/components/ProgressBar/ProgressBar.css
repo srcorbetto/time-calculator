@@ -1,0 +1,74 @@
+.ProgressBar {
+    width: 80%;
+    height: 50px;
+    background: #727272;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.myProgress {
+    height: 100%;
+    width: 20%;
+    transition: all .25s;
+    background: #a6a6a6;
+}
+
+.zeroOfEight {
+    width: 0%;
+    opacity: 0;
+}
+
+.oneOfEight {
+    width: 12.5%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.twoOfEight {
+    width: 25%;
+    border-radius: 10px 0px 0px 10px;
+    background: #95ab96;
+}
+
+.threeOfEight {
+    width: 37.5%;
+    border-radius: 10px 0px 0px 10px;
+    background: #85b187;
+}
+
+.fourOfEight {
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    background: #74b677;
+}
+
+.fiveOfEight {
+    width: 62.5%;
+    border-radius: 10px 0px 0px 10px;
+    background: #64bc68;
+}
+
+.sixOfEight {
+    width: 75%;
+    border-radius: 10px 0px 0px 10px;
+    background: #53c158;
+}
+
+.sevenOfEight {
+    width: 87.5%;
+    border-radius: 10px 0px 0px 10px;
+    background: #43c749;
+}
+
+.eightOfEight {
+    width: 100%;
+    border-radius: 10px;
+    background: #32cc39;
+}
+
+@media (max-width: 575px) {
+    .ProgressBar {
+        width: 95%;
+        height: 25px;
+    }
+}

@@ -1,0 +1,17 @@
+.startOverBtn {
+    max-width: 275px;
+    background: #e83845;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.startOverBtn:hover {
+    background: #b53046;
+}
