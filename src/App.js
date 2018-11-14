@@ -23,7 +23,7 @@ class App extends Component {
 
   componentWillMount() {
     hoursRef.onSnapshot(doc => {
-      console.log("Current data: ", doc.data());
+      // console.log("Current data: ", doc.data());
       this.setState({
         ...doc.data()
       })
